@@ -8,7 +8,7 @@ const Header: FC = () => {
   return (
     <div className={styles.navbar}>
       {/* в аттрибуте 'to' мы указываем тот же путь, что и в Route для соответствующего компонента */}
-      <NavLink to="/">random activity</NavLink>
+      <NavLink to="/react-routes">random activity</NavLink>
       <NavLink to="counter">counter</NavLink>
       <NavLink to="cityPage">cityPage</NavLink>
       <NavLink to="sandwich">sandwich</NavLink>

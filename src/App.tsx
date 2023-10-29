@@ -16,7 +16,7 @@ import Error from './components/error/Error';
 
 const App = (): JSX.Element => (
   <Routes>
-    <Route path="/" element={<Layout />}>
+    <Route path="/react-routes" element={<Layout />}>
       {/* аттрибут индекс указывает на то, что этот Route откроется на домашней странице, path в этом случае указывать не нужно */}
       <Route index element={<RandomActivity />} />
       <Route path="counter" element={<Counter />} />
